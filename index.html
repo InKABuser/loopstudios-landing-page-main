@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <script defer src="index.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="first-section">
+    <nav>
+      <img src="/images/logo.svg" alt="logo">
+      <a href="#sidenav-open" id="sidenav-button" class="hamburger" title="Open Menu" aria-label="Open Menu">
+        <svg viewBox="0 0 50 40" role="presentation" focusable="false" aria-label="trigram for heaven symbol">
+          <line class="bar1" x1="0" x2="100%" y1="10%" y2="10%"></line>
+          <line class="bar2" x1="0" x2="100%" y1="50%" y2="50%"></line>
+          <line class="bar3" x1="0" x2="100%" y1="90%" y2="90%"></line>
+        </svg>
+      </a>
+      <div class="navL">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              About            
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              Careers
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              Events
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              Support
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+    <div class="text-highlight">
+      <p>
+        Immersive<br> experiences<br> that deliver
+      </p>
+    </div>
+  </section>
+  <section class="second-section">
+    <div class="img-wrapper">
+      <img srcset="/images/mobile/image-interactive.jpg 654w,
+                  /images/desktop/image-interactive.jpg 731w" sizes="(max-width: 700px) 500px, 600px" src="/images/mobile/image-interactive.jpg" alt="interactive">
+    </div>
+    <div class="s2-allText">
+      <h2 class="heading">
+      The leader in interactive VR
+      </h2>
+      <p class="s2-text">
+    Founded in 2011, Loopstudios has been producing world-class virtual reality 
+    projects for some of the best companies around the globe. Our award-winning 
+    creations have transformed businesses through digital experiences that bind 
+    to their brand.
+      </p>
+    </div>
+  </section>
+  <section class="third-section">
+    <h2 class="s3-heading">
+      Our creations
+    </h2>
+    <div class="cardContainer">
+      <div id="earth" class="s3-cards"><h2 class="card-h">Deep earth</h2></div>
+      <div id="arcade" class="s3-cards"><h2 class="card-h">Night arcade</h2></div>
+      <div id="football" class="s3-cards"><h2 class="card-h">Soccer team VR</h2></div>
+      <div id="grid" class="s3-cards"><h2 class="card-h">The grid</h2></div>
+      <div id="VR" class="s3-cards"><h2 class="card-h">From up above VR</h2></div>
+      <div id="Pocket" class="s3-cards"><h2 class="card-h">Pocket borealis</h2></div>
+      <div id="Curiosity" class="s3-cards"><h2 class="card-h">The curiosity</h2></div>
+      <div id="fisheye" class="s3-cards"><h2 class="card-h">Make it fisheye</h2></div>
+    </div>
+    <button class="s3-button">See all</button>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <img class="footerImg" src="./images/logo.svg" alt="logo">
+      <ul class="footerList">
+        <li class="footerItem"><a href="" class="footerLink">About</a></li>
+        <li class="footerItem"><a href="" class="footerLink">Careers</a></li>
+        <li class="footerItem"><a href="" class="footerLink">Events</a></li>
+        <li class="footerItem"><a href="" class="footerLink">Products</a></li>
+        <li class="footerItem"><a href="" class="footerLink">Support</a></li>
+      </ul>
+      <div class="socials">
+        <a class="socials-link" href=""><img class="socials-item" src="./images/icon-facebook.svg" alt="facebook"></a>
+        <a class="socials-link" href=""><img class="socials-item" src="./images/icon-twitter.svg" alt="twitter"></a>
+        <a class="socials-link" href=""><img class="socials-item" src="./images/icon-pinterest.svg" alt="Pintrest"></a>
+        <a class="socials-link" href=""><img class="socials-item" src="./images/icon-instagram.svg" alt="IG"></a>
+      </div>
+      <p class="rights">© 2021 Loopstudios. All rights reserved.</p> 
+    </div>
+  </footer>
+    
+<!--   <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
